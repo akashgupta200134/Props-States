@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
+import FormHandling from "./components/FormHandling";
 
 const data = [
   {
@@ -68,6 +69,8 @@ function App() {
           ))}
         </div>
       </div>
+
+      <FormHandling></FormHandling>
     </>
   );
 }
