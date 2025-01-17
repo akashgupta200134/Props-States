@@ -2,6 +2,8 @@ import { useState } from "react";
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import FormHandling from "./components/FormHandling";
+import FormHandling2 from  "./components/FormHandling2";
+import FormHandling3 from "./components/FormHandling3";
 
 const data = [
   {
@@ -71,6 +73,9 @@ function App() {
       </div>
 
       <FormHandling></FormHandling>
+      <FormHandling2></FormHandling2>
+      <FormHandling3></FormHandling3>
+     
     </>
   );
 }

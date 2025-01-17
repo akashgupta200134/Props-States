@@ -26,6 +26,7 @@ const FormHandling = () => {
 
     return (
         <div className="mt-36 mb-36 ml-24">
+            <h1 className=" text-5xl font-bold text-center mb-10">Form Handling Using useRef</h1>
             <form className=" flex justify-center items-center gap-5 " onSubmit={submitHandler} action="">
 
 
